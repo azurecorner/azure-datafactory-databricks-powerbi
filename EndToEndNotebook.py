@@ -2,7 +2,7 @@
 dbutils.fs.mount(
    source = "wasbs://raw@datasyncstdata.blob.core.windows.net",
    mount_point = "/mnt/datasynchro",
-   extra_configs = {"fs.azure.account.key.datasyncstdata.blob.core.windows.net":"ygdiJ6wnJjvb6NB8veg9EgJWz0UjahlzhodZpzg+9+qBMF2dT7V3rkL2d1++n0yRN7VNSYw4uGWP+AStsIyTZQ=="}
+   extra_configs = {"fs.azure.account.key.datasyncstdata.blob.core.windows.net":"{storage_account_key}"}
 )
 
 
